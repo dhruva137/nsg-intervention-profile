@@ -1,0 +1,15 @@
+# Class A (experiments/) -- CPU only, everything below this line is what those need.
+numpy==2.4.4
+pandas==2.2.3
+scikit-learn==1.6.1
+matplotlib==3.10.1
+scipy==1.15.2
+nbformat==5.10.4
+
+# Class B (notebooks/llm_extension_t4.ipynb) -- Kaggle T4, unrun. Pinned to versions known
+# to work together on a T4 with CUDA 12.x as of this writing; not installed or exercised
+# by anything in experiments/.
+torch==2.5.1
+transformers==4.46.3
+accelerate==1.1.1
+datasets==3.1.0

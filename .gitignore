@@ -1,1 +1,10 @@
-*.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.pkl
+
+# results/*.png are real output and are kept; nothing else in results/ should be tracked.
+results/*
+!results/.gitkeep
+!results/*.png
+.pytest_cache/
